@@ -1,0 +1,116 @@
+.header {
+    height: 56px;
+    border: 1px solid #f0f0f0;
+}
+.header_container {
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+}
+.jianshuLogo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100px;
+    height: 56px;
+    background-image: url('../../static/logo.png');
+    background-size: 100%,100%;
+}
+.headerNav {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+.headerNav > div {
+    line-height: 56px;
+    padding: 0 15px;
+    font-size: 17px;
+}
+.headerNav_index,.headerNav_download,.header_search {
+    float: left;
+}
+.header_search {
+    position: relative;
+}
+.header_search i {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 19px;
+    text-align: center;
+}
+.headerNav_denglu,.headerNav_font {
+    float: right;
+    color: #969696;
+}
+.headerNav_font i {
+    font-size: 20px;
+    line-height: 60px;
+}
+.headerNav_index {
+    color: #ea6f5a;
+}
+.headerNav_download {
+    color: #333;
+}
+.headerNav input {
+    box-sizing: border-box;
+    width: 160px;
+    height: 38px;
+    margin-top: 9px;
+    padding: 0 30px 0 20px;
+    color: #666;
+    border: none;
+    outline: none;
+    border-radius: 19px;
+    font-size: 14px;
+    background-color: #eee;
+}
+input::placeholder {
+    color: #999;
+}
+input.focused {
+    width: 240px;
+}
+i.focused {
+    background-color: #777;
+    color: #fff;
+}
+.slide-enter {
+    transition: all 0.2s ease-out;
+}
+.slide-enter-active {
+    width: 240px;
+}
+.slide-exit {
+    transition: all 0.2s ease-out;
+}
+.slide-exit-active {
+    width: 160px;
+}
+.headerRight {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 56px;
+}
+.headerRight_zhuce,.headerRight_write{
+    float: right;
+    margin-top: 9px;
+    padding: 0 20px;
+    margin-right: 20px;
+    line-height: 38px;
+    border-radius: 19px;
+    border: 1px solid #ec6149;
+    font-size: 14px;
+}
+.headerRight_zhuce {
+    color: #ec6149;
+}
+.headerRight_write {
+    color: #fff;
+    background-color: #ec6149;
+}
